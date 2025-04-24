@@ -6,7 +6,7 @@ def main():
         chars_sorted_list = sorted_list(chars_dict)
 
         print('--- Begin report of books/frankenstein.txt ---')
-        print(f'{num_words} found in the document')
+        print(f'{num_words} words found in the document')
         print()
 
         for c in chars_sorted_list:
